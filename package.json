@@ -1,19 +1,19 @@
 {
   "name": "roblox-donation-proxy",
-  "version": "1.0.0",
-  "description": "Proxy untuk BagiBagi.co ke Roblox",
+  "version": "2.0.0",
+  "description": "Multi-Platform Donation Server (Saweria, Sociabuzz, BagiBagi) with Roblox MessagingService",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js"
   },
-  "keywords": [],
+  "keywords": ["roblox", "donation", "saweria", "sociabuzz", "bagibagi"],
   "author": "",
   "license": "ISC",
   "engines": {
-    "node": "18.x"
+    "node": "24.x"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.21.0"
   }
 }
